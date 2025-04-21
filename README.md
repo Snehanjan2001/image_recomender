@@ -10,7 +10,7 @@ This project is a **text-to-image recommendation system** that suggests the most
 - Accepts a **natural language text** query as input.
 - Recommends the **top-k most similar images** from a dataset.
 - Uses **OpenCLIP ViT-B-32** model to generate text and image embeddings.
-- Stores embeddings in a **FAISS index** for fast nearest-neighbor search.
+- Stores embeddings in a **FAISS index** for fast nearest-neighbor search.(using Eucleadian distance in this case, can be changed to cosine similarity also)
 - Supports **KaggleHub integration** to fetch image datasets.
 
 ---
